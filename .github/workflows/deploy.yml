@@ -22,3 +22,4 @@ jobs:
           local-dir: ./
           server-dir: ./htdocs/ 
           port: 21
+          dangerous-clean-slate: true
