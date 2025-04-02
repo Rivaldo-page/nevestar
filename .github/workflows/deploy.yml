@@ -21,4 +21,4 @@ jobs:
           protocol: ftps
           local-dir: ./
           server-dir: ./htdocs/ 
-          ftp-passive: true
+          port: 21
