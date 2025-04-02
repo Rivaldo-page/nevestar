@@ -16,8 +16,8 @@ jobs:
       - name: Enviar arquivos via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.3
         with:
-          server: $ {{ secrets.FTP_HOST }}
-          username: $ {{ secrets.FTP_USERNAME }}
+          server: ftpupload.net
+          username: if0_37138573
           password: $ {{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: htdocs/ 
